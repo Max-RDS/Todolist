@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'connexion',
+    loadChildren: () => import('./connexion/connexion.module').then( m => m.ConnexionPageModule)
+  },
+  {
+    path: 'todolist',
+    loadChildren: () => import('./todolist/todolist.module').then( m => m.TodolistPageModule)
+  },
+  {
+    path: 'creation',
+    loadChildren: () => import('./creation/creation.module').then( m => m.CreationPageModule)
+  },
 ];
 
 @NgModule({

@@ -25,3 +25,20 @@
 #container a {
   text-decoration: none;
 }
+
+.logo{
+  width: 262px;
+  height: 247px;
+  text-align: center;
+/* background: url(...); */
+}
+
+.bg-img {
+  padding: 1px;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
